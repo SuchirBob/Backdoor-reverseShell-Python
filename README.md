@@ -39,11 +39,10 @@ The project was developed to better understand:
 ```
 Backdoor-reverseShell-Python/
 │
-├── client.py          # Reverse shell client
+├── backdoor.py          # Reverse shell client
 ├── server.py          # Listener/server
 ├── requirements.txt
-├── README.md
-└── screenshots/
+└── README.md
 ```
 
 ---
@@ -139,19 +138,6 @@ This project is intentionally simple and does **not** include:
 
 The focus is on learning networking concepts rather than creating a sophisticated tool.
 
----
-
-## Future Improvements
-
-- Add encrypted communication (TLS)
-- Client authentication
-- Logging support
-- Cross-platform compatibility improvements
-- Better error handling
-- Modular code structure
-- Configuration file support
-
----
 
 ## Disclaimer
 
@@ -161,20 +147,5 @@ The author does not encourage or support unauthorized access, malicious activity
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-```
-
-### One recommendation
-
-Since you're aiming for **blue-team internships**, I'd rename the repository to something less offensive-sounding, for example:
-
-- `Python-Reverse-Shell-Lab`
-- `Reverse-Shell-Demonstration`
-- `Socket-Based-Reverse-Shell`
-- `Python-Reverse-Shell-Educational`
 
 This still accurately describes the project while making it clearer that it's a learning exercise rather than a tool intended for misuse.
