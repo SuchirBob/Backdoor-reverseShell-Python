@@ -148,4 +148,3 @@ The author does not encourage or support unauthorized access, malicious activity
 ---
 
 
-This still accurately describes the project while making it clearer that it's a learning exercise rather than a tool intended for misuse.
